@@ -15,8 +15,8 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  my_hash_creator = { key: value }
-  print my_hash_creator.value
+  #my_hash_creator = { key: value }
+  print moi
 end
 
 def read_from_hash(hash, key)
