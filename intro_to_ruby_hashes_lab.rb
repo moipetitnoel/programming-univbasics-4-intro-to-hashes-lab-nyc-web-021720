@@ -23,6 +23,6 @@ def read_from_hash(hash, key)
   read_from_hash = hash[key]
 end
 
-def update_counting_hash(key, value)
-  update_counting_hash[key] += 1
+def update_counting_hash(hash, key)
+  hash[key] += 1
 end
